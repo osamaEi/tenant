@@ -1,0 +1,3 @@
+<a href="javascript:void(0)" class="product-cart-btn cart-btn-absolute radius-5 digital-add-to-cart-btn" data-product_id="<?php echo e($product->id); ?>"> <?php echo e(__('Add to Cart')); ?> </a>
+<a href="<?php echo e(route('tenant.digital.shop.product.details', $product->slug)); ?>" class="cart-details-btn cart-details-absolute radius-5"> <?php echo e(__('View Details')); ?> </a>
+<?php /**PATH /home/exchangemails/amstechs.com/core/resources/views/themes/casual/frontend/digital-shop/partials/product-options.blade.php ENDPATH**/ ?>
